@@ -81,3 +81,9 @@ a {
 .navbar-nav li a:hover {
     color: #2e72a1 !important;
 }
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
