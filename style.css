@@ -13,7 +13,7 @@ p {
 }
 
 a {
-    color: #2e72a1;
+    color: #515789;
 }
 
 #logo, .project-img {
@@ -79,7 +79,7 @@ a {
 }
 
 .navbar-nav li a:hover {
-    color: #2e72a1 !important;
+    color: #ffffff !important;
 }
 
 .img-center {
