@@ -6,14 +6,28 @@ body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
+
 }
 
+h1{
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h5{
+  text-decoration: underline;
+  font-weight: bold;
+}
 p {
     font-size: 16px;
 }
 
 a {
-    color: #515789;
+    color: #234366;
+    font-weight: bold;
 }
 
 #logo, .project-img {
@@ -40,13 +54,14 @@ a {
 }
 
 .bg-2 {
-    background-color: #647491; /* grey blue */
+    background-color: #5992C5; /* dark blue */
     color: #ffffff;
 }
 
 .card {
-    color: black;
+    color: #1C1D21;
     text-align: left;
+    background-color: #B4CEE4; /* light blue */
 }
 
 .card-title {
@@ -54,7 +69,7 @@ a {
 }
 
 .bg-3 {
-    background-color: #000000; /* Black */
+    background-color: #1C1D21; /* Black */
     color: #ffffff;
 }
 
@@ -90,3 +105,113 @@ a {
 .link {
     text-align: center;
 }
+
+/* MY EDITS */
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+@media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
+  h1, .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    text-transform: uppercase;
+  }
+
+  h1, .h1 {
+    line-height: 1;
+  }
+
+  p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
+
+  .subheading {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  #sideNav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+
+  @media (min-width: 992px) {
+    #sideNav {
+      padding-left: 0;
+      padding-right: 0;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh;
+    }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 10rem;
+      max-height: 10rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+  }
+
+  /* min size */
+@media (min-width: 1400px) {
+  .d-lg-none {
+    display: none !important;
+  }
+
+  .d-block {
+    display: block !important;
+  }
+}
+
